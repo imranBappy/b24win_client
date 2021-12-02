@@ -1,0 +1,26 @@
+
+.news{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-top: 2px;
+    
+    width: 100%;
+}
+
+
+.news>div:first-child{
+    -webkit-box-shadow: 18px 3px 25px -6px #000000;
+    box-shadow: 33px -5px 36px -12px #000000;
+}
+.news>div:last-child{
+    -webkit-box-shadow: inset 9px -7px 6px -9px rgb(0 0 0 / 91%);
+box-shadow: inset 9px -7px 6px -9px rgb(0 0 0 / 91%);
+}
+.left>h3{
+    padding: 10px;
+    margin-top: 5px;
+}
+.right marquee{
+    padding: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,144 @@
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+.bet>h4{
+  margin:20px 0px 15px 0px;
+}
+.bet>h4>span{
+  border-bottom: 7px groove rgb(255 121 5 / 85%);
+  border-radius: 0 0 50px 50px;
+  padding: 4px 13px 4px 13px;
+}
+
+.bet-container{
+  display: grid;
+  grid-template-columns: minmax(140px, auto) minmax(140px, auto) ;
+  grid-column-gap: 5px;
+}
+.bet-container>button{
+  font-size:15px;
+  border: 2px solid orangered ;
+  color: black;
+  background: #fff;
+  border-radius:10px
+}
+.bet-container>button>span{
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid orangered;
+  border-radius:50%;
+  font-weight:600
+}
+.game__logo{
+  width: 30px;
+  background-color:#3d105d !important;
+}
+#game__title{
+  padding: 12px
+}
+.game__title__info{
+  display: inline-block;
+  background-color:#3d105d !important;
+}
+.accordion{
+  padding-left: 50px;
+  position: relative;
+}
+.accordion>img.game__logo{
+  position: absolute;
+  z-index: 1;
+  left: 14px;
+  top: 15px;
+}
+
+/* animation */
+.animation__container{
+  width: 99%;
+  height:170px;
+  box-shadow: rgb(183 183 183 / 10%) 0px 4px 6px -1px, rgb(134 134 134 / 6%) 0px 2px 4px -1px;
+  margin:20px 20px 50px 20px;
+  border-radius: 5px;
+}
+.header__animation{
+  display: flex;
+}
+.header__animation>div.logo__animation{
+  display:inline-block;
+  width: 40px;
+  height: 40px;
+  background-color:hsl(200, 20%, 70%);
+  border-radius: 50%;
+  margin: 10px 0px 0px 10px;
+}
+.title__animation{
+  width: 100%;
+  height: 20px;
+  margin:20px 20px 0px 10px ;
+}
+.skeletor{
+  opacity: .7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+
+.bet__title__animation{
+  margin:20px 0px 15px 10px;
+  width:200px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.btn__animation__container{
+  display:flex;
+  margin:10px
+}
+.btn__animation__container>div{
+  width: 50%;
+  height: 40px;
+  border-radius:5px
+}
+.btn__animation__container>div:first-child{
+  margin-right:10px;
+}
+
+@keyframes skeleton-loading {
+  0%{
+    background-color:hsl(200, 20%, 70%)
+  }
+  100%{
+    background-color:hsl(200, 20%, 95%)
+  }
+}

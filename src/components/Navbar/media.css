@@ -1,0 +1,88 @@
+@media only screen and (max-width: 800px){
+    
+    div.header{
+        padding: 0px !important;
+    }
+    div.header>nav>div.container{
+        display: grid;
+        width:100%;
+        height:60px;
+        grid-template-columns: 1fr 70px 1fr ;
+        grid-template-rows: 60px;
+    }
+
+    div.header>nav{
+        padding:0px 20px;
+    }
+
+    div.header>nav>div.container>div.icon-aria>a{
+        display:none !important;
+    }
+
+    div.header>nav>div.container>div.icon-aria>div.icon{
+        display:block !important;
+        margin-top: 14px;
+    }
+
+    .time{
+        text-align: right;
+    }
+
+    /* icon */
+
+    div.header>nav>div.container>div.link-aria>ul{
+        display:none !important;
+    }
+
+    div.header>nav>div.container>div.link-aria>a>img{
+        display:block !important;
+        width:60px;
+        height:60px;
+        margin:0 auto;
+    }
+
+    .login-aria{
+        width: 100%;
+        display: grid !important;
+        grid-template-columns: repeat(2,1fr);
+        margin: 2px 2px;
+    }
+    .login-aria>div{
+        display: grid;
+        justify-content: center;
+        border: 2px solid;
+        padding: 10px 0px;
+        margin-right: 5px;
+    }
+
+    .login-aria>div>button{
+        font-size: 18px;
+        color: black;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .login-aria>div>a{
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 18px;
+        color: black;
+    }
+    
+}
+
+@media only screen and (min-width: 800px){
+    .menu{
+        display: none !important;
+    }
+}
+/* .login-aria{
+    background-color:black !important;
+    color:black !important;
+    border: none !important;
+    outline: none !important;
+}
+.login-aria *{
+    background-color:black !important;
+    color:black !important;
+    border: none !important;
+} */    

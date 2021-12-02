@@ -1,0 +1,39 @@
+
+.live-text{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: absolute;
+}
+.live-effect{
+    /* background-color:red !important ; */
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-left: 60px;
+    border: 2px solid red;
+    animation-name: live;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes live {
+  0%   {background-color: red !important;}
+  10%   {background-color:white;}
+  20%  {background-color: red;}
+  30%  {background-color: white;}
+  40%  {background-color: red;}
+  50% {background-color: white !important;}
+  60%  {background-color: red;}
+  70%  {background-color: white;}
+  80%  {background-color: red;}
+  90% {background-color: white;}
+  100% {background-color: red !important;}
+}
+
+.live-effect-container{
+  padding: 13px 0px
+}

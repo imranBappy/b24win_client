@@ -1,0 +1,12 @@
+.add-trnx{
+    display:flex;
+    margin-bottom:10px
+}
+.add-trnx a{
+    margin-right: 10px;
+}
+.add-trnx>a>button{
+    padding:10px;
+    min-width: 120px;
+    border-radius:5px
+}

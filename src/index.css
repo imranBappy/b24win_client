@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color:aliceblue !important;
+    background-color: #1c072b ;
+}
+html, body {
+    scroll-behavior: smooth;
+  }
+select,
+input{
+    border: 2px solid #6f12b3 !important;
+
+}
+.container>button{
+    border: 2px solid #6f12b3 !important;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+@media (max-width:1200px){
+    .container{
+        width: 98%;
+        margin: 0 auto;
+    }
+}
+body{
+    background: #1c072b;
+}
+::root{
+    --theme:#1c072b;
+    --theme-active: #3d105d
+}
+.header{
+    background:#3d105d !important;
+    border-bottom: 2px solid #7f27b9 !important;
+}
+.header nav,
+.header h3,
+.header p,
+.header ul,
+.header li,
+.header a,
+
+.header div{
+    background:#3d105d !important;
+}
+.icon{
+    background:#3d105d !important;
+}
+.icon img{
+    background:#3d105d !important;
+
+}
+.icon-aria{
+    background:#3d105d !important;
+}
+.icon-aria img,
+.icon-aria a{
+    background:#3d105d !important;
+
+}
+.link-aria>ul>li>a:hover {
+    background: #1c072b!important ;
+    opacity: 0.9;
+    color: aliceblue;
+}
+.active, .accordion:hover {
+    background-color: var(--theme-active);
+}
+.active{
+    background: var(--theme-active) !important;
+
+}
+.accordion{
+    background:#3d105d !important;
+    border: none !important;
+}
+.panel {
+    background-color: #240738 !important;
+}
+.bet-container>button {
+    font-size: 15px;
+    border: 2px solid #6f12b3;
+    color: black;
+    background: #3d105d;
+    border-radius: 10px;
+}
+.bet-container>button>span {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #6f12b3;
+    border-radius: 50%;
+    font-weight: 600;
+}
+.bet>h4>span {
+    border-bottom: 7px groove #3d105d !important;
+}
+.link-aria,
+.link-aria img,
+.link-aria a{
+    background: #3d105d !important;
+
+}
+.login-aria{background-color: #1c072b !important;}
+.login-aria>div{
+    background-color: #1c072b !important;
+    border: 2px solid #7f27b9 !important;
+
+
+}
+@media screen and (max-width:789px){
+    .accordion {
+        font-size: 14px !important;
+    }
+    .bet>h4>span{
+        font-size: 14px !important;
+    }
+    .bet-container>button {
+        font-size: 12px !important;
+        font-weight: 200;
+        padding: 11px 20px !important;
+    }
+    div.header>nav>div.container {
+        grid-template-columns: 35% 30% 35%;
+    }
+    .container{
+        padding: 5px 10px;
+    }
+}
+.bet>h4>span{
+    background-color: none!important;
+    
+}
+.panel div{
+    background-color: #24073800!important;
+}
+.bet{
+    background-color: #24073800!important;
+}
+.bet>h4{
+    background-color: #24073800!important;
+}
+.bet>h4>span
+{
+    background-color: #24073800!important;
+}
+button{
+    border: 2px solid #6f12b3;
+}
+.btn-active{
+    background: #6f12b3 !important;
+}
+.login-aria button{
+    border: none
+}
+
+button{
+    background: #1c072b !important;
+}
+input:active{
+    background: #1c072b !important;
+
+}
+input:checked{
+    background: #1c072b !important;
+}
+input:focus{
+    background: #0c0313 !important;
+}
